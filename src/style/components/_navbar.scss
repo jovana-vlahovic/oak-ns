@@ -1,0 +1,13 @@
+.navbar {
+  background-color: $main-bg-green;
+
+  .nav-item {
+    font-size: 1.2rem;
+  }
+  a, .navbar-toggler {
+    color: rgb(241, 238, 238);
+    &:hover, &:active {
+      text-decoration: underline;
+    }
+  }
+}
